@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.first-head-div{
+    padding: .8rem 0px;
+    background-color: rgb(142, 228, 228);
+}
+#contact{
+    display: inline;
+    margin: 1rem;
+}
+#contact span{
+    cursor: pointer;
+    margin: 1rem;
+}
+#login{
+    display: inline;
+    float: right;
+}
+.head-btn{
+    margin: 0px .5rem;
+    padding: 0px .5rem;
+    border: .5rem;
+    border-radius: .3rem;
+}
+.head-btn:hover{
+    background-color:rgb(202, 228, 240) ;
+    cursor: pointer;
+    border: .1rem solid black;
+}
+#nav-list{
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+    width: 100vw;
+    height: 4rem;
+    padding: 0px 5rem;
+}
+.logo img{
+    width: 3.7rem;
+    border-radius: 5rem;
+    display: inline;
+    
+    
+}
+.logo{
+    background-color: bisque;
+    padding: 0px 3rem;
+}
+.second-head-div {
+    display: flex;
+}
+#nav-list li{
+    list-style: none;
+    padding: 0px 2rem;
+}
+#nav-list li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
